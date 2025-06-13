@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject", "DemoProject\DemoProject.csproj", "{83BDC307-BD0D-4FE5-841B-E7D5C2AF1B18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{678A4D7D-20D4-43F3-ACF6-DF46C58B7CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoFasterConnect", "MongoFasterConnect\MongoFasterConnect.csproj", "{2E8BA080-7611-4D7D-B467-262064B6F124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83BDC307-BD0D-4FE5-841B-E7D5C2AF1B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BDC307-BD0D-4FE5-841B-E7D5C2AF1B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BDC307-BD0D-4FE5-841B-E7D5C2AF1B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BDC307-BD0D-4FE5-841B-E7D5C2AF1B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8BA080-7611-4D7D-B467-262064B6F124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8BA080-7611-4D7D-B467-262064B6F124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8BA080-7611-4D7D-B467-262064B6F124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8BA080-7611-4D7D-B467-262064B6F124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E8BA080-7611-4D7D-B467-262064B6F124} = {678A4D7D-20D4-43F3-ACF6-DF46C58B7CC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFC0212A-8823-4DBB-B3F6-8A708C447C92}
+	EndGlobalSection
+EndGlobal
