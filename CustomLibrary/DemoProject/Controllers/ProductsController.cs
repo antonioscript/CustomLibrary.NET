@@ -2,17 +2,14 @@
 using MongoDB.Driver;
 using MongoFasterConnect;
 
-namespace DemoProject.Controllers;
-
 [ApiController]
 [Route("api/[controller]")]
 public class ProductsController : ControllerBase
 {
     private readonly IMongoCollection<Product> _collection;
 
-    public ProductsController()
+    public ProductsController(IMongoDBService mongo)
     {
-        var mongo = new MongoDBService("mongodb://localhost:27017", "TestDb");
         _collection = mongo.GetCollection<Product>("Products");
     }
 
@@ -30,7 +27,6 @@ public class ProductsController : ControllerBase
         return Ok();
     }
 }
-
 
 public class Product
 {
