@@ -32,3 +32,19 @@ https://www.nuget.org/
 ---
 
 ![image](https://github.com/user-attachments/assets/7f0a0a0b-6885-461a-b0db-8e71712c71f5)
+
+---
+
+### Publish
+
+```powershell
+dotnet nuget push "bin\Release\MongoFasterConnect.1.0.1.nupkg" --api-key SUA_CHAVE_AQUI --source https://api.nuget.org/v3/index.json
+```
+
+![image](https://github.com/user-attachments/assets/d28fe011-d5a1-4c7b-b9fe-e07d1eb5929d)
+
+---
+
+![image](https://github.com/user-attachments/assets/dff54723-8404-419c-b35f-be47d377f110)
+
+
