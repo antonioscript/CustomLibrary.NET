@@ -1,14 +1,14 @@
 ﻿using MongoDB.Driver;
+using MongoFasterConnect;
 
-namespace MongoFasterConnect;
 public class MongoDBService : IMongoDBService
 {
     private readonly IMongoDatabase _database;
 
-    public MongoDBService(string connectionString, string databaseName)
+    public MongoDBService(MongoDbSettings settings)
     {
-        var client = new MongoClient(connectionString);
-        _database = client.GetDatabase(databaseName);
+        var client = new MongoClient(settings.ConnectionString);
+        _database = client.GetDatabase(settings.DatabaseName);
     }
 
     public IMongoCollection<T> GetCollection<T>(string name)
