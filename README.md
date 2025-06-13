@@ -7,15 +7,15 @@ Built for **modularity**, **maintainability**, and **scalability**.
 
 ## Summary
 
-- [Build and Pack](#-build-and-pack)
+- [Build and Pack](#build-and-pack)
   - [Using .NET CLI](#using-net-cli)
   - [Using Visual Studio](#using-visual-studio)
-- [Publish to NuGet](#-publish-to-nuget)
-  - [Create API Key](#create-api-key)
-  - [Push to NuGet](#-push-to-nuget)
-  - [Success Output](#-success-output)
-  - [Final NuGet Package Page](#-final-nuget-package-page)
-- [Best Practices Tips](#-tip)
+- [Publish to NuGet](#publish-to-nuget)
+  - [Push to NuGet](#push-to-nuget)
+  - [Success Output](#success-output)
+  - [Final NuGet Package Page](#final-nuget-package-page)
+- [Best Practices Tips](#tip)
+
 
 
 ## Build and Pack
