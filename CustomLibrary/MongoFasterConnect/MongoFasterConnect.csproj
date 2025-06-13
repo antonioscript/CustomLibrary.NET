@@ -1,13 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
 
-  <ItemGroup>
-    <PackageReference Include="MongoDB.Driver" Version="3.4.0" />
-  </ItemGroup>
+		<!-- Informações para NuGet -->
+		<PackageId>MongoFasterConnect</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Antônio Rocha</Authors>
+		<Company>antonioscripter</Company>
+		<Description>Reusable MongoDB connection and collection library</Description>
+		<PackageTags>MongoDB;Connection;Reusable;Database</PackageTags>
+		<RepositoryUrl>https://github.com/seu-usuario/seu-repo</RepositoryUrl>
+		<!-- opcional -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MongoDB.Driver" Version="3.4.0" />
+	</ItemGroup>
 
 </Project>
